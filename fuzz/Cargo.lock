@@ -1911,7 +1911,7 @@ checksum = "04744f49eae99ab78e0d5c0b603ab218f515ea8cfe5a456d7629ad883a3b6e7d"
 
 [[package]]
 name = "ord"
-version = "0.12.3"
+version = "0.13.1"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -2386,7 +2386,7 @@ checksum = "79ea77c539259495ce8ca47f53e66ae0330a8819f67e23ac96ca02f50e7b7d36"
 dependencies = [
  "log",
  "ring 0.16.20",
- "rustls-webpki 0.101.2",
+ "rustls-webpki 0.101.7",
  "sct",
 ]
 
@@ -2450,12 +2450,12 @@ checksum = "e7673e0aa20ee4937c6aacfc12bb8341cfbf054cdd21df6bec5fd0629fe9339b"
 
 [[package]]
 name = "rustls-webpki"
-version = "0.101.2"
+version = "0.101.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "513722fd73ad80a71f72b61009ea1b584bcfa1483ca93949c8f290298837fa59"
+checksum = "8b6275d1ee7a1cd780b64aca7726599a1dbc893b1e64144529e55c3c2f745765"
 dependencies = [
- "ring 0.16.20",
- "untrusted 0.7.1",
+ "ring 0.17.7",
+ "untrusted 0.9.0",
 ]
 
 [[package]]
